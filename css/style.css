@@ -55,7 +55,7 @@ body {
 .left_side {
 
     max-width: 987px;
-    background-image: url('/img/background.png');
+    background-image: url('../img/background.png');
     height: 980px;
 }
 
