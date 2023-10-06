@@ -1,0 +1,270 @@
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+p {
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;
+
+    max-width: 1920px;
+}
+
+.container {
+    max-width: 1600px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+
+.main {
+    display: flex;
+}
+
+.left_side {
+
+    max-width: 987px;
+    background-image: url('/img/background.png');
+    height: 980px;
+}
+
+.left_side-logo {
+    padding-top: 40px;
+    padding-left: 101px;
+
+}
+
+.left_side_logo-img {
+    max-width: 128px;
+    max-height: 76.06px;
+}
+
+.left_side-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 100px;
+    padding-top: 212px;
+    padding-left: 101px;
+    line-height: 120px;
+    letter-spacing: 3px;
+
+}
+
+
+
+.rigt_side {}
+
+.right_side-title {
+    padding-top: 119px;
+    padding-left: 180px;
+    color: #010617;
+    font-family: Montserrat;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 1.2px;
+}
+
+.right_side-subtitle {
+    padding-top: 20px;
+    padding-left: 252px;
+    color: #999;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+
+    letter-spacing: 0.9px;
+}
+
+.register {
+    padding-top: 42px;
+    padding-left: 188px;
+    display: flex;
+    flex-direction: column;
+    display: none;
+
+}
+
+.register input {
+    margin-top: 26px;
+    max-width: 465px;
+    max-height: 60px;
+    border: none;
+    border-bottom: 1px solid #010617;
+
+
+    color: #999;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-left: 16px;
+    padding-bottom: 20px;
+    outline: none;
+}
+
+.sing_in {
+    margin-top: 32px;
+    border-radius: 10px;
+    border-bottom: 1px solid #D0D9F8;
+    background: #010617;
+    border: none;
+    color: #ffffff;
+    display: flex;
+    width: 465px;
+    padding: 20px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+
+.inp_password {
+    border-bottom: 1px solid #010617;
+    display: inline-block;
+
+    position: relative;
+
+
+}
+
+
+.password_visible {
+    position: absolute;
+    left: 433px;
+    top: 22px;
+    border: none;
+    background-color: none;
+    cursor: pointer;
+}
+
+.rep_password {
+    border-bottom: 1px solid #010617;
+    display: inline-block;
+    position: relative;
+}
+
+.inp_password input {
+    border: none;
+
+}
+
+.rep_password input {
+    border: none;
+}
+
+.login {
+    display: flex;
+    padding-top: 42px;
+    padding-left: 188px;
+    flex-direction: column;
+
+}
+
+.login input {
+    margin-top: 26px;
+    max-width: 465px;
+    max-height: 60px;
+    border: none;
+
+    border-bottom: 1px solid #010617;
+
+    color: #999;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-left: 16px;
+    padding-bottom: 20px;
+    outline: none;
+
+
+}
+
+
+
+
+.login__pas {
+    border: none;
+}
+
+.log_in {
+    margin-top: 32px;
+    border-radius: 10px;
+    border-bottom: 1px solid #D0D9F8;
+    background: #010617;
+    border: none;
+    color: #ffffff;
+    display: flex;
+    width: 465px;
+    padding: 20px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+
+
+.subform {
+    display: flex;
+    padding-left: 281px;
+    padding-top: 32px;
+}
+
+.subform__text {
+    margin-right: 10px;
+    color: #999;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.log__in {
+    color: #010617;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
