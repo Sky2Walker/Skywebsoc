@@ -116,7 +116,7 @@ body {
     padding-left: 188px;
     display: flex;
     flex-direction: column;
-    display: none;
+    
 
 }
 
@@ -193,6 +193,7 @@ body {
     padding-top: 42px;
     padding-left: 188px;
     flex-direction: column;
+    display: none;
 
 }
 
