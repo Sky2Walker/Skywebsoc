@@ -161,9 +161,6 @@ body {
     display: inline-block;
 
     position: relative;
-    
-
-
 }
 
 
@@ -205,7 +202,7 @@ body {
     max-height: 60px;
     border: none;
 
-    
+    border-bottom: 1px solid #010617;
 
     color: #999;
     font-family: 'Montserrat Alternates', sans-serif;
@@ -268,4 +265,8 @@ body {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+}
+
+.inp_password>.login__pas {
+    border: none;
 }
