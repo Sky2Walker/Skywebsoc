@@ -156,6 +156,24 @@ body {
 }
 
 
+
+.sing_in:hover,
+.log_in:hover {
+    background: #3B0244;
+
+}
+
+
+.sing_in:active,
+ .log_in:active{
+    background: none;
+    border: 1px solid #010617;
+    color: #010617;
+}
+
+
+
+
 .inp_password {
     border-bottom: 1px solid #010617;
     display: inline-block;
