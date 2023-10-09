@@ -178,3 +178,47 @@ body {
     width: 1px;
     padding-left: 101px;
 }
+
+.profile__post-input {
+    position: relative;
+    margin-top: 60px;
+    margin-left: 364px;
+    width: 708px;
+    height: 146px;
+    background: #FFF;
+    border-radius: 20px;
+    border: 1px solid #BFBEBE;
+}
+
+.post__input-place {
+    width: 100%;
+    height: 100%;
+    background: #FFF;
+    resize: none;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+
+    font-family: ' Montserrat Alternates', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    overflow: hidden;
+}
+
+
+.post__input-place::placeholder {
+    color: #BFBEBE;
+}
+
+.post__send {
+    position: absolute;
+    width: 45px;
+    height: 30px;
+    border-radius: 50px;
+    background: #010821;
+    cursor: pointer;
+    right: 20px;
+    top: 96px;
+}
