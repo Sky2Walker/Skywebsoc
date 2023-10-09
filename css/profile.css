@@ -170,7 +170,7 @@ body {
 
 .profile__post-ihner {
     background: #F9F8F8;
-    height: 500px;
+    height: 100%;
 }
 
 .post__line {
@@ -188,6 +188,7 @@ body {
     background: #FFF;
     border-radius: 20px;
     border: 1px solid #BFBEBE;
+    margin-bottom: 20px;
 }
 
 .post__input-place {
@@ -226,11 +227,99 @@ body {
 
 .post__send svg {
     padding-top: 4px;
-  
+
 }
+
+
+
 
 
 .post__send:hover {
     background-color: #3B0244;
 
+}
+
+
+.profile__post-feed {
+    width: 708px;
+    height: 146px;
+    border-radius: 30px;
+    border: 1px solid #BFBEBE;
+    background: #FFF;
+    margin-left: 364px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.profile__post-text {
+    color: #010617;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 100%;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.like {
+    position: absolute;
+    left: 20px;
+    top: 114px;
+    cursor: pointer;
+}
+
+.like:active svg {
+    fill: #010821;
+
+}
+
+.liked {
+    position: absolute;
+    top: 114px;
+    left: 40px;
+    color: #A09F9F;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.likerd__count {
+    position: absolute;
+    top: 114px;
+    left: 81px;
+    color: #A09F9F;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.liked__metriks {
+    position: absolute;
+    top: 114px;
+    left: 108px;
+    color: #A09F9F;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.timestamp {
+    position: absolute;
+    top: 114px;
+    right: 20px;
+    color: #A09F9F;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
