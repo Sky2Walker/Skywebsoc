@@ -222,3 +222,8 @@ body {
     right: 20px;
     top: 96px;
 }
+
+.post__send:hover {
+    background-color: #3B0244;
+    
+}
