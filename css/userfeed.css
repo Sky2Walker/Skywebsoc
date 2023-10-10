@@ -71,7 +71,7 @@ body {
 .user_profile-ihner {
     display: flex;
     background: #F9F8F8;
-    height: 340px;
+    height: 220px;
 }
 
 .user_profile-info {
@@ -84,14 +84,14 @@ body {
 
 .user__info-avatar {
 
-    width: 180px;
-    height: 180px;
+    width: 100px;
+    height: 100px;
     border-radius: 180px;
 }
 
 .avatar {
-    width: 180px;
-    height: 180px;
+    width: 100px;
+    height: 100px;
     border-radius: 180px;
 }
 
@@ -178,32 +178,6 @@ body {
     width: 1px;
     padding-left: 101px;
     margin-bottom: 60px;
-
-}
-
-.follow {
-    width: 287px;
-    height: 48px;
-    padding: 16px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    flex-shrink: 0;
-    border-radius: 50px;
-    background: #010617;
-    color: #FFF;
-    font-family: 'Montserrat Alternates', sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin-top: 30px;
-    margin-bottom: 50px;
-    cursor: pointer;
-}
-
-.follow:hover {
-    background: #3B0244;
 }
 
 
@@ -221,8 +195,7 @@ body {
     border: 1px solid #BFBEBE;
     background: #FFF;
     margin-left: 364px;
-    margin-bottom: 30px;
-
+    margin-bottom: 20px;
     position: relative;
 }
 
@@ -293,6 +266,35 @@ body {
     right: 20px;
     color: #A09F9F;
     font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.post {}
+
+.post__header {
+    display: flex;
+    align-items: center;
+    margin-left: 334px;
+
+}
+
+.prof__avatar {
+    width: 40px;
+    height: 40px;
+}
+
+.prof__avatar-img {
+    width: 40px;
+    height: 40px;
+}
+
+.profile__username {
+    padding-left: 10px;
+     color:  #999;
+    font-family: 'Montserrat Alternates',sans-serif;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
