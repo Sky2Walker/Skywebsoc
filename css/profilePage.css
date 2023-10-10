@@ -1,0 +1,299 @@
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+p {
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;
+
+    max-width: 1920px;
+}
+
+.container {
+    max-width: 1435px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.header {
+    max-width: 1920px;
+    height: 119px;
+    background-image: url('../img/header_background.png');
+}
+
+.header__logo {
+    padding-top: 21px;
+    padding-left: 100px;
+}
+
+.logo {
+    width: 128px;
+    height: 76.05px;
+}
+
+
+.user_profile {}
+
+
+
+.user_profile-ihner {
+    display: flex;
+    background: #F9F8F8;
+    height: 340px;
+}
+
+.user_profile-info {
+    display: flex;
+    padding-top: 70px;
+    padding-left: 222px;
+
+
+}
+
+.user__info-avatar {
+
+    width: 180px;
+    height: 180px;
+    border-radius: 180px;
+}
+
+.avatar {
+    width: 180px;
+    height: 180px;
+    border-radius: 180px;
+}
+
+.info__text {
+    display: flex;
+    flex-direction: column;
+}
+
+.personal {
+    display: flex;
+    padding-top: 27px;
+    padding-left: 40px;
+
+    color: #010617;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 8px;
+    padding-right: 8px;
+
+}
+
+.name {
+    padding-right: 6px;
+}
+
+
+
+.verified {
+    padding-top: 27px;
+}
+
+.username {
+    padding-left: 40px;
+    color: #999;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 34px;
+}
+
+.about {
+    padding-left: 40px;
+    color: #999;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 34px;
+}
+
+.followers__info {
+    padding-top: 170px;
+    padding-left: 451px;
+    display: flex;
+    color: #010617;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.followers {
+    margin-right: 6px;
+}
+
+.count_followers {
+    margin-right: 6px;
+}
+
+.profile__post-ihner {
+    background: #F9F8F8;
+    height: 100vh;
+}
+
+.post__line {
+    height: 1px;
+    width: 1px;
+    padding-left: 101px;
+
+}
+
+.follow {
+    width: 287px;
+    height: 48px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #010617;
+    color: #FFF;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+.follow:hover {
+    background: #3B0244;
+}
+
+
+
+
+
+
+
+
+
+.profile__post-feed {
+    width: 708px;
+    height: 146px;
+    border-radius: 30px;
+    border: 1px solid #BFBEBE;
+    background: #FFF;
+    margin-left: 364px;
+    margin-top: 30px;
+
+    position: relative;
+}
+
+.profile__post-text {
+    color: #010617;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 100%;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.like {
+    position: absolute;
+    left: 20px;
+    top: 114px;
+    cursor: pointer;
+}
+
+.like:active svg {
+    fill: #010821;
+
+}
+
+.liked {
+    position: absolute;
+    top: 114px;
+    left: 40px;
+    color: #A09F9F;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.likerd__count {
+    position: absolute;
+    top: 114px;
+    left: 81px;
+    color: #A09F9F;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.liked__metriks {
+    position: absolute;
+    top: 114px;
+    left: 108px;
+    color: #A09F9F;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.timestamp {
+    position: absolute;
+    top: 114px;
+    right: 20px;
+    color: #A09F9F;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
